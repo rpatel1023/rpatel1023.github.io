@@ -17,7 +17,7 @@ function HomePage() {
                                 I'm a 3rd year Electrical and Computer Engineering major at the Univeristy of Texas at Austin. I've been programming since I was 15 years old, and am always seeking ways to solve problems through technology. <br/>  
                                 I've been fortunate to have a range of work experiences. I spent my freshman year designing robots at NASA, and did research at the Intelligent Environments Laboratory on climate efficient building practices. <br/>
                                 My sophomore summer took place in Toronto, where I was a Software Engineering Intern at Publicis Sapient, honing my front-end skills. Next summer I'll be in Seattle, working at Amazon as an SDE Intern! <br/>
-                                I'm also a huge fan of Dota 2 and esports. I've worked at Team Liquid, designed Discord bots for esports communities, and even helped organized NA Dota In-house Leagues. Check out my blog for my biased sports opinions!.
+                                I'm also a huge fan of Dota 2 and esports. I've worked at Team Liquid, designed Discord bots for esports communities, and even helped organized NA Dota In-house Leagues. Check out my blog for my biased sports opinions!
                             </p>
                         </div>
                     </Col>
