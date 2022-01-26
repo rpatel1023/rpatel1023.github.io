@@ -1,0 +1,74 @@
+h2, h3, h4, h5, h6 {
+    color: #E6E6E6;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+@media screen and (min-width: 601px) {
+    .projectsPage {
+        position: absolute;
+        margin-top: 50px;
+        padding-bottom: 170px;
+    }
+    h1 {
+        margin-bottom: 3% !important;
+    }
+    h6 {
+        font-size: 12px !important;
+    }
+    h4 {
+        font-size: 15px !important;
+        text-align: justify;
+    }
+    .col {
+        text-align: left;
+        max-width: 25% !important;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 4%;
+    }
+    .button {
+        margin-right: 12px !important;
+    }
+
+}
+  
+@media screen and (max-width: 600px) {
+    .projectsPage {
+        position: absolute;
+        padding-bottom: 170px;
+        margin-bottom: 70px;
+    }
+    h1 {
+        margin-bottom: 5% !important;
+    }
+    h6 {
+        font-size: 12px !important;
+    }
+    h4 {
+        font-size: 15px !important;
+        text-align: justify;
+    }
+    .col {
+        text-align: left;
+        min-width: 70% !important;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 4%;
+    }
+    .button {
+        margin-right: 12px !important;
+    }
+    body { padding-top: 70px; }
+
+    .footer{
+        margin-top: 40px;
+        background-color: #212529;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+      }
+
+}
+

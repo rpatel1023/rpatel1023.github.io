@@ -1,0 +1,42 @@
+#center {
+    justify-content: center;
+    align-items: center;
+}
+.credits {
+    opacity: 40%;
+    text-align: center;
+    font-size: 20px;
+}
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+    .footer {
+        background-color: #212529;
+        position: fixed;
+        bottom: 0;
+    }
+          .icon {
+          margin: 5px !important;
+      }
+}
+  
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+    .footer{
+        margin-top: 40px;
+        background-color: #212529;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+      }
+      .footer p {
+          font-size: 10px !important;
+          margin-top: 4%;
+      }
+      .icon {
+          margin: 5px !important;
+          height: 25px !important;
+          width: 25px !important;
+      }
+
+}
