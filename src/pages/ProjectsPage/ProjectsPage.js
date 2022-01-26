@@ -22,7 +22,7 @@ function ProjectsPage() {
                             <h2>Personal Website</h2>
                             <h6>ReactJS, HTML5, CSS</h6>
                             <h4>My personal portfolio, built with ReactJS, HTML5, and CSS! One of my personal favorite projects from the sheer freedom I've had to customize and design everything myself.</h4>
-                            <Button variant='outline-success' href="https://github.com/rpatel1023/personal-website" target="_blank">Github</Button>
+                            <Button variant='outline-success' href="https://github.com/rpatel1023/rpatel1023.github.io" target="_blank">Github</Button>
                         </Col>
                         <Col xs md={6}>
                             <h2>Bevo's Hardware Services</h2>

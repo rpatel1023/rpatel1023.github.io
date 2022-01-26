@@ -47,7 +47,8 @@ h2, h3, h4, h5, h6 {
     }
     h4 {
         font-size: 15px !important;
-        text-align: justify;
+        /* text-align: justify; */
+        word-spacing: 2px;
     }
     .col {
         text-align: left;
