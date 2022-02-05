@@ -25,15 +25,22 @@ function ProjectsPage() {
                             <Button variant='outline-success' href="https://github.com/rpatel1023/rpatel1023.github.io" target="_blank">Github</Button>
                         </Col>
                         <Col xs md={6}>
+                            <h2>Valorant Tracker</h2>
+                            <h6>Python, Flask, ReactJS, Electron</h6>
+                            <h4>A stat tracking tool for Valorant. Utilizes the Valorant Client API to pull match data and generate statistics on performance. My first attempt at using Electron to create an executable and distributable application.</h4>
+                            <Button variant='outline-success' href="https://github.com/rpatel1023/valorant_tracker" target="_blank" >Github</Button> &nbsp; 
+                        </Col>
+
+                    </Row>
+ 
+                    <Row className="justify-content-md-center row" style={{display: 'flex', justifyContent: 'center', textAlign: 'center'}}>
+                    <Col xs md={6}>
                             <h2>Bevo's Hardware Services</h2>
                             <h6>ReactJS, HTML5, CSS, Python, MongoDB</h6>
                             <h4>A Hardware as a Service web application created for EE461L. The app is a full stack application hosted on Heroku with a MongoDB cluster, allowing users to manage their hardware resources and distribute them amongst various projects</h4>
                             <Button variant='outline-success' href="https://github.com/rpatel1023/Barons_461L" target="_blank">Github</Button> &nbsp; 
                             <Button variant='outline-info' href="https://barons461.herokuapp.com/" target="_blank" >Demo</Button>
-                        </Col>
-                    </Row>
- 
-                    <Row className="justify-content-md-center row" style={{display: 'flex', justifyContent: 'center', textAlign: 'center'}}>
+                    </Col>
                     <Col xs md={6}>
                             <h2>IXDL Website</h2>
                             <h6>HTML5, CSS, PHP, MySQL</h6>
@@ -47,11 +54,7 @@ function ProjectsPage() {
                             <Button variant='outline-success' href="https://github.com/rpatel1023/football-stars" target="_blank" >Github</Button> &nbsp; 
                             <Button variant='outline-info' href="https://youtu.be/mc1Jbsa6Tg8" target="_blank" >Demo</Button>
                         </Col>
-                        <Col xs md={6}>
-                            <h2>Auction House Desktop App</h2>
-                            <h6>Java, SQL</h6>
-                            <h4>An auction house application designed to demonstrate the client-server relationship in Java. Utilizes JavaFX to create a desktop GUI and SQL to store records on items being processed in the auction system.</h4>
-                        </Col>
+
                     </Row>    
                 </Row>     
              
