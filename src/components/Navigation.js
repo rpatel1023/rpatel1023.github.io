@@ -9,7 +9,7 @@ function Navigation() {
             <Navbar className="sticky-nav" collapseOnSelect fixed="top" expand='sm' bg="dark" variant='dark'>
                 <Container>
                     <Navbar.Brand>Rushi Patel</Navbar.Brand>
-                    <Clock style={{ color: 'white'}}format={'h:mm:ss A'} ticking={true} timezone='US/Central'/>
+                    <Clock style={{ color: 'white'}}format={'h:mm:ss A z'} ticking={true} timezone='US/Central' />
                     <Navbar.Toggle aria-controls='responsive-navbar-nav' />
                     <Navbar.Collapse id='responsive-navbar-nav' className='justify-content-end'>
                         <Nav>
