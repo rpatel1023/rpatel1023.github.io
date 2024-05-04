@@ -1,4 +1,5 @@
 import { Typography, Link } from '@mui/material';
+import { useMediaQuery } from '@mui/material';
 
 const Projects = ({darkMode}) => {
     const openUL = `<ul>`
@@ -7,6 +8,7 @@ const Projects = ({darkMode}) => {
     const closeLI = `</li>`
     const openP = `<p>`
     const closeP = `</p>`
+    const isSmallScreen = useMediaQuery((theme) => theme.breakpoints.down('sm'));
 
     const quotedText = [
         { title: "Immortal Bot", url: "https://github.com/rpatel1023/ImmortalBot", description: "A discord bot for fetching and posting pro-Dota 2 matches" },
@@ -16,7 +18,7 @@ const Projects = ({darkMode}) => {
     ]
 
     return (
-        <>
+        <div style={{ display: "flex",flexDirection: isSmallScreen ? 'column' : 'row', justifyContent: 'center', alignItems: 'center' }}>
             <Typography
                 variant="p"
                 sx={{
@@ -61,7 +63,7 @@ const Projects = ({darkMode}) => {
                 )}
                 {closeUL}
             </Typography>
-        </>
+        </div>
     );
 };
 
