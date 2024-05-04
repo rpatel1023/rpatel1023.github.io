@@ -18,7 +18,7 @@ const Projects = ({darkMode}) => {
     ]
 
     return (
-        <div style={{ display: "flex",flexDirection: isSmallScreen ? 'column' : 'row', justifyContent: 'center', alignItems: 'center' }}>
+        <div style={{ display: "flex",flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
             <Typography
                 variant="p"
                 sx={{
